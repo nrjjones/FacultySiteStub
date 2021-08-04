@@ -1,0 +1,22 @@
+name: "Jenna Nobles"
+navbar:
+  title: "Jenna Nobles"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Pubs"
+      href: pubs.html
+    - text: "Teaching and Service"
+      href: teach.html
+    - text: "Projects"
+      href: proj.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<jnobles.ssc.wisc.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/jen-nej/
+output:
+  html_document:
+    theme: spacelab
