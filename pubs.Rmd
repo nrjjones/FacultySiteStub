@@ -1,5 +1,5 @@
 ---
-title: "About This Website"
+title: "Publications"
 ---
 
 Kindig, David, Jenna Nobles, and Moheb Zidan. 2018. “Meeting the Institute of Medicine’s 2030 Us Life Expectancy Target.” American Journal of Public Health 108(1): 87-92. PMCID 5719677.

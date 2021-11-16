@@ -6,7 +6,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Pubs"
+    - text: "Publications"
       href: pubs.html
     - text: "Teaching and Service"
       href: teach.html
