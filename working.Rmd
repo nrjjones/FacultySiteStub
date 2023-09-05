@@ -1,0 +1,92 @@
+---
+title: "Working Papers"
+---
+
+Under review
+
+**Early-Life Exposures and Social Stratification**
+
+Florencia Torche &amp; Jenna Nobles
+
+Under review / solicited, *Annual Review of Sociology*
+
+Adverse environmental exposures—war and violence, natural disasters, escalating
+heat, worsening air quality—experienced in pregnancy are consequential for
+multiple domains of wellbeing over the life course, including health, cognitive
+development, schooling, and earnings. Though these environmental exposures
+become embodied via biological processes, they are fundamentally sociological
+phenomena: their emergence, allocation, and impact are structured by
+institutions and power. As a result, consequential early-life environmental
+exposures are a critical part of the sociological understanding of social
+stratification, intergenerational mobility, and individual and cohort life
+course trajectories. We review theory and evidence on prenatal exposures,
+describe enduring methodological issues and potential solutions for elucidating
+these effects, and discuss the importance of this evidence for the
+stratification of opportunity and outcomes in contemporary societies.
+
+**Mifepristone Restrictions Reduce Health Care Quality for &gt;850,000 Americans Who Miscarry**
+
+Jenna Nobles, Sungsik Hwang, Eliza Bennet, Laura Jacques
+
+Under Review
+
+In April 2023, the ruling of a federal judge initiated a nationwide ban on
+mifepristone, a synthetic steroid used in abortion provision. If the ban is
+upheld, the restriction of mifepristone would have broad impact. Though
+mifepristone is described as an “abortion drug,” it is used for other
+conditions, including miscarriage management. The aim of this short study is to
+capture the order of magnitude of people who will be affected across the U.S. We
+provide the first state- specific estimates of annual miscarriage counts between
+6-26 weeks gestation, when medical miscarriage management is an important
+resource for patients. We estimate miscarriage counts using multidecrement
+lifetable parameters multiplied by state-specific birth counts, drawing on
+2018-2021 data from the National Center for Health Statistics. We find that
+mifepristone restrictions will affect health care quality for over 850,000
+pregnant Americans who experience miscarriage each year, a population at least
+one-fourth the size of people giving birth. Miscarriage is common and
+consequential; suboptimal medical management can result in adverse health
+effects, avoidable surgery, and additional health care costs. State and federal
+policy targeting mifepristone will have consequences that extend far beyond
+abortion provision.
+
+**Vaccination and the Decline of Adverse Effects of COVID-19 Infection on Infant Health**
+
+Florencia Torche &amp; Jenna Nobles
+Revise &amp; Resubmit, *Proceedings of the National Academy of Sciences*
+
+In-utero exposure to COVID-19 infection may lead to large intergenerational
+health effects. The impact of infection exposure has likely evolved since the
+onset of the pandemic as new variants emerge, vaccines become available, and
+vaccine hesitancy persists, such that *when* infection is experienced is as
+important as *whether* it is experienced. We examine the changing impact of
+COVID-19 infection on preterm birth and the moderating role of vaccination. We
+offer the first plausibly causal estimate of the impact of maternal COVID-19
+infection by using population data with no selectivity, universal information on
+maternal COVID-19 infection, and linked sibling data. We then assess change in
+this impact from 2020 to 2023, and evaluate the protective role of COVID-19
+vaccination on infant health. We find a substantial adverse effect of prenatal
+COVID-19 infection on the probability of preterm birth. The impact was large
+during the first two years of the pandemic but had fully disappeared by 2022.
+The harmful impact of COVID-19 infection disappeared almost a year earlier in
+zipcodes with high vaccination rates, suggesting that vaccines might have
+prevented thousands of preterm births. The findings highlight the need to
+monitor the changing consequences of emerging infectious diseases over time, and
+the importance of mitigation strategies to reduce the burden of infection on
+vulnerable populations.
+
+**A Scalable Approach to Rigorously Evaluate the Safety of Emerging Technology in Pregnancy**
+
+Jenna Nobles &amp; Florencia Torche, MPIs
+Under review, NIH
+
+The U.S. does not have a systematic way of rigorously evaluating vaccine safety
+in pregnancy. This research demonstrates how linked state-level administrative
+data systems, combined with statistical methods for quasi-experimental design,
+can be used to provide timely, rigorous, population-representative estimates of
+the effects of vaccines administered in the months preceding and during
+pregnancy on an array of pregnancy outcomes, including preterm birth, birth
+defects, severe maternal morbidity, and stillbirth. We demonstrate the approach
+by providing the first population-level estimates of COVID-19 vaccine safety in
+pregnancy, first for all births in California and Wisconsin, and then for
+population subgroups, including Black, Latina, low income, and rural
+populations.

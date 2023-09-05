@@ -3,3 +3,21 @@ title: " "
 ---
 
 <img src="img/Nobles_headshot-300x300.jpg">
+
+[CV](./docs/Nobles_cv_Fall2023.pdf)
+
+[Research]()
+
+[Working Papers](working.html)
+
+[Teaching](teach.html)
+
+[Center for Demography and Ecology](https://cde.wisc.edu/)
+
+[Health Disparities Research Scholars](https://www.obgyn.wisc.edu/HDRS)
+
+[Collaborative Center for Health Equity](https://core.wisc.edu/)
+
+[Center for Demography of Health and Aging](https://cdha.wisc.edu/)
+
+[Applied Population Lab](https://apl.wisc.edu/)

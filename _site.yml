@@ -1,4 +1,5 @@
 name: "Jenna Nobles"
+output_dir: "docs"
 navbar:
   title: "Jenna Nobles"
   left:
@@ -6,6 +7,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "CV"
+      href: docs/Nobles_cv_Fall2023.pdf
+    - text: "Working Papers"
+      href: working.html
     - text: "Publications"
       href: pubs.html
     - text: "Teaching and Service"

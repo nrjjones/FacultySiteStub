@@ -11,9 +11,9 @@
 
 
 
-<title>about.knit</title>
+<title>Working Papers</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -248,6 +249,12 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="about.html">About</a>
+</li>
+<li>
+  <a href="docs/Nobles_cv_Fall2023.pdf">CV</a>
+</li>
+<li>
+  <a href="working.html">Working Papers</a>
 </li>
 <li>
   <a href="pubs.html">Publications</a>
@@ -281,11 +288,94 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Working Papers</h1>
 
 </div>
 
 
-<p>I am a Professor of Sociology at the University of Wisconsin, Madison. I study how people make decisions about migration and fertility and the implications of these decisions for population change. My current projects include the links between residential change and crime, anticipatory migration behavior, demographic responses to the diffusion of health risks, and the reconstruction of hidden population traits. My research has been funded by the NIH, NSF, William T. Grant Foundation and Robert Wood Johnson Foundation. I am the Associate Director of the Center for Demography and Ecology and the Assistant Director of UW-Madison’s Health Disparities Research post-doctoral scholars program.</p>
+<p>Under review</p>
+<p><strong>Early-Life Exposures and Social Stratification</strong></p>
+<p>Florencia Torche &amp; Jenna Nobles</p>
+<p>Under review / solicited, <em>Annual Review of Sociology</em></p>
+<p>Adverse environmental exposures—war and violence, natural disasters,
+escalating heat, worsening air quality—experienced in pregnancy are
+consequential for multiple domains of wellbeing over the life course,
+including health, cognitive development, schooling, and earnings. Though
+these environmental exposures become embodied via biological processes,
+they are fundamentally sociological phenomena: their emergence,
+allocation, and impact are structured by institutions and power. As a
+result, consequential early-life environmental exposures are a critical
+part of the sociological understanding of social stratification,
+intergenerational mobility, and individual and cohort life course
+trajectories. We review theory and evidence on prenatal exposures,
+describe enduring methodological issues and potential solutions for
+elucidating these effects, and discuss the importance of this evidence
+for the stratification of opportunity and outcomes in contemporary
+societies.</p>
+<p><strong>Mifepristone Restrictions Reduce Health Care Quality for
+&gt;850,000 Americans Who Miscarry</strong></p>
+<p>Jenna Nobles, Sungsik Hwang, Eliza Bennet, Laura Jacques</p>
+<p>Under Review</p>
+<p>In April 2023, the ruling of a federal judge initiated a nationwide
+ban on mifepristone, a synthetic steroid used in abortion provision. If
+the ban is upheld, the restriction of mifepristone would have broad
+impact. Though mifepristone is described as an “abortion drug,” it is
+used for other conditions, including miscarriage management. The aim of
+this short study is to capture the order of magnitude of people who will
+be affected across the U.S. We provide the first state- specific
+estimates of annual miscarriage counts between 6-26 weeks gestation,
+when medical miscarriage management is an important resource for
+patients. We estimate miscarriage counts using multidecrement lifetable
+parameters multiplied by state-specific birth counts, drawing on
+2018-2021 data from the National Center for Health Statistics. We find
+that mifepristone restrictions will affect health care quality for over
+850,000 pregnant Americans who experience miscarriage each year, a
+population at least one-fourth the size of people giving birth.
+Miscarriage is common and consequential; suboptimal medical management
+can result in adverse health effects, avoidable surgery, and additional
+health care costs. State and federal policy targeting mifepristone will
+have consequences that extend far beyond abortion provision.</p>
+<p><strong>Vaccination and the Decline of Adverse Effects of COVID-19
+Infection on Infant Health</strong></p>
+<p>Florencia Torche &amp; Jenna Nobles Revise &amp; Resubmit,
+<em>Proceedings of the National Academy of Sciences</em></p>
+<p>In-utero exposure to COVID-19 infection may lead to large
+intergenerational health effects. The impact of infection exposure has
+likely evolved since the onset of the pandemic as new variants emerge,
+vaccines become available, and vaccine hesitancy persists, such that
+<em>when</em> infection is experienced is as important as
+<em>whether</em> it is experienced. We examine the changing impact of
+COVID-19 infection on preterm birth and the moderating role of
+vaccination. We offer the first plausibly causal estimate of the impact
+of maternal COVID-19 infection by using population data with no
+selectivity, universal information on maternal COVID-19 infection, and
+linked sibling data. We then assess change in this impact from 2020 to
+2023, and evaluate the protective role of COVID-19 vaccination on infant
+health. We find a substantial adverse effect of prenatal COVID-19
+infection on the probability of preterm birth. The impact was large
+during the first two years of the pandemic but had fully disappeared by
+2022. The harmful impact of COVID-19 infection disappeared almost a year
+earlier in zipcodes with high vaccination rates, suggesting that
+vaccines might have prevented thousands of preterm births. The findings
+highlight the need to monitor the changing consequences of emerging
+infectious diseases over time, and the importance of mitigation
+strategies to reduce the burden of infection on vulnerable
+populations.</p>
+<p><strong>A Scalable Approach to Rigorously Evaluate the Safety of
+Emerging Technology in Pregnancy</strong></p>
+<p>Jenna Nobles &amp; Florencia Torche, MPIs Under review, NIH</p>
+<p>The U.S. does not have a systematic way of rigorously evaluating
+vaccine safety in pregnancy. This research demonstrates how linked
+state-level administrative data systems, combined with statistical
+methods for quasi-experimental design, can be used to provide timely,
+rigorous, population-representative estimates of the effects of vaccines
+administered in the months preceding and during pregnancy on an array of
+pregnancy outcomes, including preterm birth, birth defects, severe
+maternal morbidity, and stillbirth. We demonstrate the approach by
+providing the first population-level estimates of COVID-19 vaccine
+safety in pregnancy, first for all births in California and Wisconsin,
+and then for population subgroups, including Black, Latina, low income,
+and rural populations.</p>
 
 
 
