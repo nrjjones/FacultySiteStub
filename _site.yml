@@ -8,7 +8,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "CV"
-      href: docs/Nobles_cv_Fall2023.pdf
+      href: ./pdfs/Nobles_cv_Fall2023.pdf
     - text: "Working Papers"
       href: working.html
     - text: "Publications"
